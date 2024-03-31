@@ -49,7 +49,7 @@ export const Contact = () => {
                   YOUR NAME
                 </label>
                 <input
-                  className="h-[3.5rem] w-[20rem] rounded-xl border-2 border-gray-400"
+                  className="p-[1rem] w-[20rem] rounded-xl border-2 border-gray-400"
                   type="text"
                   id="name"
                 />
@@ -59,7 +59,7 @@ export const Contact = () => {
                   PHONE NUMBER
                 </label>
                 <input
-                  className="h-[3.5rem] w-[20rem] rounded-xl border-2 border-gray-400"
+                  className="p-[1rem] w-[20rem] rounded-xl border-2 border-gray-400"
                   type="text"
                   id="name"
                 />
@@ -70,7 +70,7 @@ export const Contact = () => {
                 Email
               </label>
               <input
-                className="h-[3.5rem] rounded-xl border-2 border-gray-400"
+                className="p-[1rem] rounded-xl border-2 border-gray-400"
                 type="text"
                 id="email"
               />
@@ -80,7 +80,7 @@ export const Contact = () => {
                 SUBJECT
               </label>
               <input
-                className="h-[3.5rem] rounded-xl border-2 border-gray-400"
+                className="p-[1rem] rounded-xl border-2 border-gray-400"
                 type="text"
                 id="subject"
               />
@@ -90,7 +90,7 @@ export const Contact = () => {
                 MESSAGE
               </label>
               <input
-                className="h-[10rem] rounded-xl border-2 border-gray-400"
+                className="py-[5rem] px-[1rem] rounded-xl border-2 border-gray-400"
                 type="text"
                 id="message"
               />

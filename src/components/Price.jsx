@@ -26,60 +26,60 @@ export const Price = () => {
         </p>
         <div className="flex gap-32">
           <div className="flex flex-col gap-4">
-            <span className="flex ">
+            <span className="flex gap-2 ">
               <FaCheck className="text-red-700" />
               <h1>multipage Elementorr</h1>
             </span>
-            <span className="flex  ">
+            <span className="flex gap-2  ">
               <FaCheck className="text-red-700" />
               <h1>Design Figma</h1>
             </span>
 
-            <span className="flex  ">
+            <span className="flex gap-2  ">
               <FaCheck className="text-red-700" /> <h1>MAintaine Design</h1>
             </span>
 
-            <span className="flex  text-left ">
+            <span className="flex gap-2  text-left ">
               <FaCheck className="text-red-700" />{" "}
               <h1 className="text-left">Content Upload</h1>
             </span>
 
-            <span className="flex  text-left ">
+            <span className="flex gap-2  text-left ">
               <FaCheck className="text-red-700" />
               <h1>Design With XD</h1>
             </span>
 
-            <span className="flex  justify-center ">
+            <span className="flex gap-2  ">
               <FaCheck className="text-red-700" />
               <h1>8 Plugins/Extensions</h1>
             </span>
           </div>
 
           <div className="flex flex-col gap-4">
-            <span className="flex ">
+            <span className="flex gap-2 ">
               <FaCheck className="text-red-700" />
               <h1>1 Page with Elementor</h1>
             </span>
-            <span className="flex  ">
+            <span className="flex gap-2  ">
               <FaCheck className="text-red-700" />
               <h1>Design Customization</h1>
             </span>
 
-            <span className="flex  ">
+            <span className="flex gap-2  ">
               <FaCheck className="text-red-700" /> <h1>Responsive Design</h1>
             </span>
 
-            <span className="flex  text-left ">
+            <span className="flex gap-2 ">
               <FaCheck className="text-red-700" />{" "}
               <h1 className="text-left">Content Upload</h1>
             </span>
 
-            <span className="flex item-center justify-center text-left ">
+            <span className="flex gap-2">
               <FaCheck className="text-red-700" />
               <h1>Design Customization</h1>
             </span>
 
-            <span className="flex item-center justify-center ">
+            <span className="flex gap-2 ">
               <FaCheck className="text-red-700" />
               <h1>2 Plugins/Extensions</h1>
             </span>
