@@ -1,7 +1,7 @@
 import React from "react";
 import { feature } from "./js/Data";
 import "./feature.css";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa";
 
 export const Features = () => {
   return (

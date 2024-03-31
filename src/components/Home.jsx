@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
 import { BiLogoInstagram } from "react-icons/bi";
 import { SlSocialInstagram } from "react-icons/sl";
 import { FiLinkedin } from "react-icons/fi";
