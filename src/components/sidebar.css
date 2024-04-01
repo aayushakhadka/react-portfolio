@@ -1,0 +1,22 @@
+.sidebar {
+    gap: 2rem;
+    color: white;
+    width: 250px;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #333;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .close-btn {
+    margin-top: 10px;
+  }
+  

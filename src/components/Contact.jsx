@@ -11,7 +11,7 @@ export const Contact = () => {
           CONTACT
         </h1>
         <h1 className="text-[3rem] font-bold ">Contact With Me</h1>
-        <div className="flex gap-10">
+        <div className="flex justify-evenly laptop1:flex-row tablet:flex-col mobileS:flex-col gap-10 mt-4">
           <div className="flex flex-col bg-gray-200 p-[2rem] hover gap-5 rounded-xl">
             <img
               className="rounded-[1rem]"
@@ -19,7 +19,7 @@ export const Contact = () => {
             />
             <h1 className="font-bold text-xl">Nevine Acotanza</h1>
             <h2>Chief Operating Officer</h2>
-            <p className="w-[25rem]">
+            <p className="max-w-[30rem]">
               I am available for freelance work. Connect with me via and call in
               to my account.
             </p>
@@ -28,7 +28,7 @@ export const Contact = () => {
               <h1>Email: admin@example.com</h1>
             </div>
             <h2>Find with Me</h2>
-            <div className="flex gap-4">
+            <div className="flex  gap-4">
               <span className="flex items-center justify-center h-[3rem] w-[3rem] bg-gradient-to-b from-gray-200 to-gray-300 shadow-md shadow-black rounded-md ">
                 <FaFacebookF />
               </span>
@@ -43,13 +43,13 @@ export const Contact = () => {
 
           {/* contact form */}
           <div className="bg-gray-300 p-[2rem] flex flex-col gap-5 rounded-xl ">
-            <div className="flex gap-4 ">
+            <div className="flex tablet:flex-row mobileS:flex-col gap-4 ">
               <div className="flex flex-col gap-4">
                 <label for="name" className="text-sm text-gray-600">
                   YOUR NAME
                 </label>
                 <input
-                  className="p-[1rem] w-[20rem] rounded-xl border-2 border-gray-400"
+                  className="p-[1rem] max-w-[20rem] rounded-xl border-2 border-gray-400"
                   type="text"
                   id="name"
                 />
@@ -59,7 +59,7 @@ export const Contact = () => {
                   PHONE NUMBER
                 </label>
                 <input
-                  className="p-[1rem] w-[20rem] rounded-xl border-2 border-gray-400"
+                  className="p-[1rem] max-w-[20rem] rounded-xl border-2 border-gray-400"
                   type="text"
                   id="name"
                 />

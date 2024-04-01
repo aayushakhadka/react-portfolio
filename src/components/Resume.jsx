@@ -12,14 +12,16 @@ export const Resume = () => {
         +7 years of experiences
       </h1>
       <h1 className="text-[3rem] font-bold ">My Resume</h1>
-      <div className="flex items-center justify-center w-[95%] bg-gradient-to-l from-gray-300 to-gray-400 h-[5rem] rounded-md mt-[3rem] gap-[8rem]">
-        <h1 className="text-2xl ">Education</h1>
-        <h1 className="text-2xl ">Professional Skills </h1>
-        <h1 className="text-2xl">Experience</h1>
-        <h1 className="text-2xl ">Interview</h1>
+      <div className="flex items-center justify-center w-full bg-gradient-to-l from-gray-300 to-gray-400 h-[5rem] rounded-md mt-[3rem] laptop:gap-[8rem] tablet:gap-[2rem]">
+        <h1 className="laptop:text-2xl tablet:text-lg ">Education</h1>
+        <h1 className="laptop:text-2xl tablet:text-lg  ">
+          Professional Skills{" "}
+        </h1>
+        <h1 className="laptop:text-2xl tablet:text-lg ">Experience</h1>
+        <h1 className="laptop:text-2xl tablet:text-lg  ">Interview</h1>
       </div>
 
-      <div className=" grid grid-cols-2 mt-[3rem] gap-5  ">
+      <div className=" grid laptop1:grid-cols-2 tablet:grid-cols-2 mt-[3rem] gap-5  ">
         <div>
           <h1>2007-2010</h1>
           <h1 className="text-2xl font-medium">Education Quality</h1>

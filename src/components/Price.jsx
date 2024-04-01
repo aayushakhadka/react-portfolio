@@ -3,15 +3,18 @@ import { FaCheck } from "react-icons/fa";
 
 export const Price = () => {
   return (
-    <div className="flex font-display justify-between pb-[5rem]" id="price">
+    <div
+      className="flex laptop1:flex-row tablet:flex-col mobileS:flex-col tablet:items-center font-display laptop1:justify-between pb-[5rem]"
+      id="price"
+    >
       <div>
         <h1 className="text-red-700 mt-[5rem] tracking-widest text-lg">
           PRICING
         </h1>
         <h1 className="text-[3rem] font-bold ">My Pricing</h1>
       </div>
-      <div className="flex flex-col hover bg-gray-200 p-[4rem] gap-8 mt-[3rem]">
-        <div className="flex gap-[10rem]  ">
+      <div className="flex flex-col mobileS:items-center mobileS:justify-center tablet:items-start tablet:justify-start hover bg-gray-200 p-[4rem] gap-8 mt-[3rem]">
+        <div className="flex tablet:flex-row tablet:gap-[10rem] mobileS: gap-2  ">
           <h1 className="text-xl">Static</h1>
           <h1 className="text-xl">Standard</h1>
           <h1 className="text-xl">Premium</h1>
@@ -20,11 +23,11 @@ export const Price = () => {
           <h1 className="text-lg font-bold">Design Make this Page</h1>
           <h3>Elementor</h3>
         </div>
-        <p className="text-lg w-[30rem]">
+        <p className="text-lg max-w-[35rem]">
           Making this the first true generator on the Internet. It uses a
           dictionary & plugin Development.
         </p>
-        <div className="flex gap-32">
+        <div className="flex tablet:flex-row mobileS:flex-col gap-32">
           <div className="flex flex-col gap-4">
             <span className="flex gap-2 ">
               <FaCheck className="text-red-700" />

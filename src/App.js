@@ -15,7 +15,7 @@ function App() {
   return (
     <div className=" flex flex-col gap-[5rem] px-[3rem] bg-gray-200">
       <Nav />
-      <div className="px-[5rem] flex flex-col gap-10 duration-1000">
+      <div className="tablet:px-[5rem] flex flex-col gap-10 duration-1000">
         <Home />
         <Features />
         <Portfolio />

@@ -10,7 +10,7 @@ export const Portfolio = () => {
           VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
         </h1>
         <h1 className="text-[3rem] font-bold ">My Portfolio</h1>
-        <div className="grid grid-cols-3 gap-5 mt-[3rem]">
+        <div className="grid laptop:grid-cols-3 tablet:grid-cols-2 gap-5 mt-[3rem]">
           {portfolio.map((content, index) => {
             return (
               <div

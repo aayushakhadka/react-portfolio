@@ -8,7 +8,7 @@ export const Testimonal = () => {
         WHAT CLIENT SAYS
       </h1>
       <h1 className="text-[3rem] font-bold ">Testimonal</h1>
-      <div className="flex gap-5 mt-[2rem] ">
+      <div className="flex tablet:flex-row mobileS:flex-col items-center gap-5 mt-[2rem] ">
         <div className="group flex flex-col justify-center rounded-3xl gap-3 bg-gray-100 shadow-sm shadow-gray-800 group-hover:bg-red-700 duration-300 p-[1.5rem]  w-[20rem] overflow-hidden  ">
           <img
             src="https://rainbowit.net/html/inbio/assets/images/testimonial/final-home--1st.png"
@@ -25,7 +25,7 @@ export const Testimonal = () => {
           return (
             <div
               key={index}
-              className="flex flex-col gap-8 p-[2rem] w-[50rem] bg-gray-200 rounded-md bg-gradient-to-t from-gray-300 to-gray-400 duration-500"
+              className="flex flex-col gap-8 p-[2rem] max-w-[50rem] bg-gray-200 rounded-md bg-gradient-to-t from-gray-300 to-gray-400 duration-500"
             >
               <div className="flex items-center justify-between">
                 <div className="flex flex-col gap-4">

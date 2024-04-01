@@ -6,23 +6,23 @@ import { FiLinkedin } from "react-icons/fi";
 
 export const Home = () => {
   return (
-    <div className="flex justify-between pb-[5rem]" id="home">
+    <div className="flex  justify-between pb-[5rem]" id="home">
       <div className="flex flex-col gap-3 ">
         <h2 className="text-gray-700 tracking-[4px] mt-[5rem] font-display">
           WELCOME TO MY WORLD
         </h2>
 
-        <h1 className="text-[3rem] font-bold ">
+        <h1 className="tablet:text-[3rem] mobileS:text-[1.3rem] font-bold ">
           Hi, I’m
-          <span className="text-red-600 text-[3rem] font-bold font-display">
+          <span className="text-red-600 tablet:text-[3rem] mobileS:text-[1.3rem] font-bold font-display">
             Jone Lee a
           </span>
         </h1>
 
-        <h1 className="text-[3rem] font-bold font-display ">
+        <h1 className=" tablet:text-[3rem] mobileS:text-[1.3rem] font-bold font-display ">
           Developer.Professional
         </h1>
-        <p className="w-[35rem]  text-gray-600 font-display ">
+        <p className=" text-gray-600 font-display max-w-[30rem] ">
           I use animation as a third dimension by which to simplify experiences
           and kuiding thro each and every interaction. I’m not adding motion
           just to spruce things up, but doing it in ways that.
@@ -45,7 +45,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="  bg-gradient-to-l from-gray-300 to-gray-400 w-[25rem] h-[30rem] rounded-md relative  ">
+      <div className="  bg-gradient-to-l from-gray-300 to-gray-400 w-[25rem] h-[30rem] rounded-md relative mobileS:hidden tablet:flex ">
         <img
           src="https://rainbowit.net/html/inbio/assets/images/slider/banner-01.png"
           className=" absolute bottom-[1%]"
